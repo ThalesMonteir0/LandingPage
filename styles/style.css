@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(34, 34, 34);
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+#txtMaior{
+    font-size: 2rem;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 1rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+
+}
+
+#btnInscrito {
+    border: 2px solid rgb(132, 14, 201);
+    border-radius: 1rem;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#btnInscrito:hover {
+    color: white;
+    background-color: rgb(132, 14, 201);;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+h2 {
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 5rem;
+}
+
+#txtRoxo {
+    color: rgb(132, 14, 201);
+}
+
+p {
+    max-width: 80%;
+}
+form [type = "submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    border-radius: 20px;
+    margin-top: 1rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    margin-top: 1rem;
+    border-radius: 25px;
+    height: 20px;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+img {
+    margin-top: 4rem;
+    width: 580px;
+}
